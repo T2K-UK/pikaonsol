@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           left: 0;
           width: 100%;
           height: 25px; /* Adjust the height as needed */
-          background: url('/borderpika.png') no-repeat center center;
+          background: url('/pikonsol/borderpika.png') no-repeat center center;
           background-size: cover;
         }
       `}</style>
