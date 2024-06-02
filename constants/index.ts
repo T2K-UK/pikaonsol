@@ -1,8 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: 'https://x.com/home', key: 'X', label: 'X', icon: 'xlogo'},
-    { href: 'https://telegram.org', key: 'Telegram', label: 'Telegram', icon: 'telegram'},
-    { href: 'https://pump.fun', key: 'Pump', label: 'Pump', icon: 'capsule_5'}
+    { href: 'https://x.com/home', key: 'X', label: 'X', icon: 'pikaonsol/xlogo'},
+    { href: 'https://telegram.org', key: 'Telegram', label: 'Telegram', icon: '/pikaonsol/telegram'},
+    { href: 'https://pump.fun', key: 'Pump', label: 'Pump', icon: 'pikaonsol/capsule_5'}
   ];
   
   // CAMP SECTION
