@@ -33,7 +33,7 @@ const Camp = () => {
           <div className="bg-brown-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/pikonsol/rockg.png" 
+            src="/pikaonsol/rockg.png" 
             alt="rock"
             width={200} 
             height={200} 

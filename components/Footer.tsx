@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <style jsx>{`
         .bg-border-image {
-          background-image: url('/borderpika.png'); /* Replace with your border image URL */
+          background-image: url('/pikaonsol/borderpika.png'); /* Replace with your border image URL */
         }
       `}</style>
     </footer>
