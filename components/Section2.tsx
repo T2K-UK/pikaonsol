@@ -22,7 +22,7 @@ const Camp = () => {
       <div className="flex flex-col xl:flex-row items-center xl:items-start w-full mt-20 space-y-10 xl:space-y-0 xl:space-x-10 px-10">
         <div className="flex-1 flex justify-center xl:justify-start">
           <Image
-            src="/pikaonsol/pikachu-running.gif" 
+            src="/pikachu-running.gif" 
             alt="Pikachu GIF"
             width={1000} 
             height={1000} 
@@ -33,7 +33,7 @@ const Camp = () => {
           <div className="bg-brown-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/pikaonsol/rockg.png" 
+            src="/rockg.png" 
             alt="rock"
             width={200} 
             height={200} 
@@ -48,7 +48,7 @@ const Camp = () => {
           <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/pikaonsol/fire.png" 
+            src="/fire.png" 
             alt="rock"
             width={225} 
             height={225} 
@@ -63,7 +63,7 @@ const Camp = () => {
           <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/pikaonsol/grass.png" 
+            src="/grass.png" 
             alt="rock"
             width={200} 
             height={200} 
@@ -85,7 +85,7 @@ const Camp = () => {
           left: 0;
           width: 100%;
           height: 25px; /* Adjust the height as needed */
-          background: url('/pikaonsol/borderpika.png') no-repeat center center;
+          background: url('/borderpika.png') no-repeat center center;
           background-size: cover;
         }
       `}</style>

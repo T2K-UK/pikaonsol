@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
       </div>
       <div className="relative z-20 flex flex-1 justify-center xl:w-1/2 xl:ml-20 xl:-mr-10 px-24 mt-10 xl:mt-0">
         <Image
-          src="/pikaonsol/output-onlinegiftools.gif" // Replace with the path to your GIF
+          src="/output-onlinegiftools.gif" // Replace with the path to your GIF
           alt="Pikachu GIF"
           width={1000} // Set appropriate width
           height={1000} // Set appropriate height
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           left: 0;
           width: 100%;
           height: 25px; /* Adjust the height as needed */
-          background: url('/pikaonsol/borderpika.png') no-repeat center center;
+          background: url('/borderpika.png') no-repeat center center;
           background-size: cover;
         }
       `}</style>
