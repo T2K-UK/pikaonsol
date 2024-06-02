@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: 'https://x.com/home', key: 'X', label: 'X', icon: 'pikaonsol/xlogo'},
-    { href: 'https://telegram.org', key: 'Telegram', label: 'Telegram', icon: '/pikaonsol/telegram'},
+    { href: 'https://telegram.org', key: 'Telegram', label: 'Telegram', icon: 'pikaonsol/telegram'},
     { href: 'https://pump.fun', key: 'Pump', label: 'Pump', icon: 'pikaonsol/capsule_5'}
   ];
   
