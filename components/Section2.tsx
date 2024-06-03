@@ -33,7 +33,7 @@ const Camp = () => {
           <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/sdsadadasd.png.png" 
+            src="/sdsadadasd.png" 
             alt="rock"
             width={200} 
             height={200} 
@@ -63,7 +63,7 @@ const Camp = () => {
           <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/grass.png" 
+            src="/FFFFF.png" 
             alt="rock"
             width={200} 
             height={200} 
