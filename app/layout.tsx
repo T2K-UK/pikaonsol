@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'PikaSol',
-  description: 'Pikachu on sol',
+  title: 'COKE FROG',
+  description: 'He loves it',
 }
 
 export default function RootLayout({
