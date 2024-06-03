@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
     <section className="max-container flex flex-col items-center justify-center pb-32 md:gap-28 lg:py-20 xl:flex-row min-h-screen bg-cover bg-center hero-bg relative border-image-container">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
         
-        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$PIKA</h1>
+        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$COKE</h1>
         <p className="bold-32 mt-6 text-gray-900 xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-          Pikachu, ash ketchum first starter pokemon, he has won the hearts of all pokemon fans being a staple creature in the pokemon franchise.
+        Coke frog is a regular at the pond's edge, waiting patiently for jeets to leave behind their coke. He snatches it up eagerly and savors every last hit.
         </p>
 
         <div className="my-5 flex flex-wrap gap-5"></div>
