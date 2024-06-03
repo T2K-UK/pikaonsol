@@ -30,7 +30,7 @@ const Camp = () => {
           />
         </div>
         <div className="flex-1 flex flex-col xl:items-center space-y-10 box-shadow">
-          <div className="bg-brown-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
+          <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
             src="/rockg.png" 
@@ -48,7 +48,7 @@ const Camp = () => {
           <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/fire.png" 
+            src="/xcxzz.png" 
             alt="rock"
             width={225} 
             height={225} 
@@ -60,7 +60,7 @@ const Camp = () => {
               <p className="text-center bold-52">Burnt</p>
             </div>
           </div>
-          <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
+          <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
             src="/grass.png" 
@@ -85,7 +85,7 @@ const Camp = () => {
           left: 0;
           width: 100%;
           height: 25px; /* Adjust the height as needed */
-          background: url('/borderpika.png') no-repeat center center;
+          background: url('/frogborder.png') no-repeat center center;
           background-size: cover;
         }
       `}</style>
