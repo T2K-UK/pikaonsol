@@ -33,7 +33,7 @@ const Camp = () => {
           <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
           <div className="flex-1 flex xl:justify-start">
             <Image
-            src="/rockg.png" 
+            src="/xcxzz.png" 
             alt="rock"
             width={200} 
             height={200} 
@@ -41,8 +41,8 @@ const Camp = () => {
             />
           </div>
             <div className="text-center">
-              <h2 className="text-3xl bold-32 mb-4 text-center">Total supply:</h2>
-              <p className="text-center bold-52">1,000,000,000</p>
+              <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Total supply:</h2>
+              <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>1,000,000,000</p>
             </div>
           </div>
           <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
@@ -56,8 +56,8 @@ const Camp = () => {
             />
           </div>
             <div className="text-center">
-              <h2 className="text-3xl bold-32 mb-4 text-center">LP Burn:</h2>
-              <p className="text-center bold-52">Burnt</p>
+              <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>LP Burn:</h2>
+              <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Burnt</p>
             </div>
           </div>
           <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
@@ -71,8 +71,8 @@ const Camp = () => {
             />
           </div>
             <div className="text-center">
-              <h2 className="text-3xl bold-32 mb-4 text-center">Tax:</h2>
-              <p className="text-center bold-52">0%</p>
+              <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Tax:</h2>
+              <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>0%</p>
             </div>
           </div>
         </div>
