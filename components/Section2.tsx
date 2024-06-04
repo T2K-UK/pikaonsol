@@ -22,7 +22,7 @@ const Camp = () => {
       <div className="flex flex-col xl:flex-row items-center xl:items-start w-full mt-20 space-y-10 xl:space-y-0 xl:space-x-10 px-10">
         <div className="flex-1 flex justify-center xl:justify-start">
           <Image
-            src="/frogcol.gif" 
+            src="/phantompan2.jpg" 
             alt="Pikachu GIF"
             width={1000} 
             height={1000} 
@@ -31,45 +31,21 @@ const Camp = () => {
         </div>
         <div className="flex-1 flex flex-col xl:items-center space-y-10 box-shadow">
           <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          <div className="flex-1 flex xl:justify-start">
-            <Image
-            src="/sdsadadasd.png" 
-            alt="rock"
-            width={200} 
-            height={200} 
-            className="object-contain"
-            />
-          </div>
+          
             <div className="text-center">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Total supply:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>1,000,000,000</p>
             </div>
           </div>
           <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          <div className="flex-1 flex xl:justify-start">
-            <Image
-            src="/pillh.png" 
-            alt="rock"
-            width={225} 
-            height={225} 
-            className="object-contain"
-            />
-          </div>
+          
             <div className="text-center">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>LP Burn:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Burnt</p>
             </div>
           </div>
           <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          <div className="flex-1 flex xl:justify-start">
-            <Image
-            src="/FFFFF.png" 
-            alt="rock"
-            width={200} 
-            height={200} 
-            className="object-contain"
-            />
-          </div>
+          
             <div className="text-center">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Tax:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>0%</p>
