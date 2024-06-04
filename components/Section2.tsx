@@ -22,7 +22,7 @@ const Camp = () => {
       <div className="flex flex-col xl:flex-row items-center xl:items-start w-full mt-20 space-y-10 xl:space-y-0 xl:space-x-10 px-10">
         <div className="flex-1 flex justify-center xl:justify-start">
           <Image
-            src="/phantompan2.jpg" 
+            src="/crimsoncobrafull.png" 
             alt="Pikachu GIF"
             width={1000} 
             height={1000} 
@@ -61,7 +61,7 @@ const Camp = () => {
           left: 0;
           width: 100%;
           height: 25px; /* Adjust the height as needed */
-          background: url('/frogborder.png') no-repeat center center;
+          background: url('/blackborder.png') no-repeat center center;
           background-size: cover;
         }
       `}</style>
