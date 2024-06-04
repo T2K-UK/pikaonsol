@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
         
         <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$CRCO</h1>
-        <p className="bold-32 mt-6 text-gray-900 xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        <p className="bold-32 mt-6 text-black xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
         Striking with venomous speed, Crimson Cobra slithers through the solana blockchain. Hsssssss
         </p>
 

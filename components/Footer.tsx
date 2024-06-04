@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-border-image py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p className="text-black text-center relative z-10">
+        <p className="text-white text-center relative z-10">
           &copy; {new Date().getFullYear()} Crimson cobra is a memecoin for entertainment purposes only.
         </p>
       </div>
