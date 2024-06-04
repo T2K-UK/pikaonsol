@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
     <section className="max-container flex flex-col items-center justify-center pb-32 md:gap-28 lg:py-20 xl:flex-row min-h-screen bg-cover bg-center hero-bg relative border-image-container">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
         
-        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$COKE</h1>
+        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$PHPA</h1>
         <p className="bold-32 mt-6 text-gray-900 xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-        Coke frog is a regular at the pond's edge, waiting patiently for jeets to leave behind their coke. He snatches it up eagerly and savors every last hit.
+        Prowling the Solana blockchain with stealth and grace, let this sleek panther be your guide into the untamed realm of decentralized finance and beyond.
         </p>
 
         <div className="my-5 flex flex-wrap gap-5"></div>
@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
       </div>
       <div className="relative z-20 flex flex-1 justify-center xl:w-1/2 xl:ml-20 xl:-mr-10 px-24 mt-10 xl:mt-0">
         <Image
-          src="/frogcollection.png" // Replace with the path to your GIF
+          src="/sec1pan.jpg" // Replace with the path to your GIF
           alt="Pikachu GIF"
           width={1000} // Set appropriate width
           height={1000} // Set appropriate height
