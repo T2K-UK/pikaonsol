@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
         
         <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$DFVB</h1>
-        <p className="bold-32 mt-6 text-black xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
+        <p className="bold-32 mt-6 text-red-90 xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
         June 8th 1986 Keith hill, AKA DeepFuckingValue or Roaring Kitty was born. This coin is to celebrate his birthday he is known for his legendary ventures with GME.
         </p>
 

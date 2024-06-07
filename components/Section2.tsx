@@ -21,13 +21,18 @@ const Camp = () => {
       </div>
       <div className="flex flex-col xl:flex-row items-center xl:items-start w-full mt-20 space-y-10 xl:space-y-0 xl:space-x-10 px-10">
         <div className="flex-1 flex justify-center xl:justify-start">
-          <Image
-            src="/crimsoncobrafull.png" 
-            alt="Pikachu GIF"
-            width={1000} 
-            height={1000} 
-            className="object-contain"
-          />
+          <div className="grid grid-cols-3 grid-rows-3 gap-2">
+            {[...Array(9)].map((_, index) => (
+              <Image
+                key={index}
+                src={`/dfvmeme_${index + 1}.jpg`} 
+                alt={`Image ${index + 1}`}
+                width={333} 
+                height={333} 
+                className="object-cover"
+              />
+            ))}
+          </div>
         </div>
         <div className="flex-1 flex flex-col xl:items-center space-y-10 box-shadow">
           <div className="bg-green-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
