@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Crimson Cobra',
-  description: 'Red beast',
+  title: 'DFV Birthday',
+  description: 'Its DFVs birthday',
 }
 
 export default function RootLayout({
