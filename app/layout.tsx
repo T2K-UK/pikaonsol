@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'DFV Birthday',
-  description: 'Its DFVs birthday',
+  title: 'Albert Eggstein',
+  description: 'A twist on albert einstein',
 }
 
 export default function RootLayout({
