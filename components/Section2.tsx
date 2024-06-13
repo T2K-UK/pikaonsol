@@ -30,23 +30,41 @@ const Camp = () => {
           />
         </div>
         <div className="flex-1 flex flex-col xl:items-center space-y-10 box-shadow">
-          <div className="bg-blue-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          
-            <div className="text-center">
+          <div className="bg-blue-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center justify-end w-[80%] gap-5 sm:flex-row">
+          <Image
+              src="/some-image-path.png"
+              alt="Some image"
+              width={100}
+              height={100}
+              className="object-cover"
+            />
+            <div className="text-right">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Total supply:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>1,000,000,000</p>
             </div>
           </div>
-          <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          
-            <div className="text-center">
+          <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center justify-end w-[80%] gap-5 sm:flex-row">
+          <Image
+              src="/some-image-path.png"
+              alt="Some image"
+              width={100}
+              height={100}
+              className="object-cover"
+            />
+            <div className="text-right">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>LP Burn:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Burnt</p>
             </div>
           </div>
-          <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-col items-center justify-center w-[80%] gap-5 sm:flex-row">
-          
-            <div className="text-center">
+          <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center justify-end w-[80%] gap-5 sm:flex-row">
+          <Image
+              src="/some-image-path.png"
+              alt="Some image"
+              width={100}
+              height={100}
+              className="object-cover"
+            />
+            <div className="text-right">
               <h2 className="text-3xl bold-32 mb-4 text-center" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Tax:</h2>
               <p className="text-center bold-52" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>0%</p>
             </div>

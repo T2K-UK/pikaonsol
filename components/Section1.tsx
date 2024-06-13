@@ -11,6 +11,13 @@ const Hero: React.FC = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const scrollToCollection = () => {
+    const element = document.getElementById("collection");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="max-container flex flex-col items-center justify-center pb-32 md:gap-28 lg:py-20 xl:flex-row min-h-screen bg-cover bg-center hero-bg relative border-image-container">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
@@ -26,6 +33,15 @@ const Hero: React.FC = () => {
             type="button" 
             title="Tokenomics" 
             onClick={scrollToTokenomics}
+          />
+          
+        </div>
+        <div className="my-1.5"></div>
+        <div className="flex flex-col w-full gap-5 sm:flex-row">
+          <Button3
+            type="button" 
+            title="Collection" 
+            onClick={scrollToCollection}
           />
           
         </div>
