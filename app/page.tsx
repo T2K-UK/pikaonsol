@@ -1,6 +1,6 @@
 import Sec1 from "@/components/Section1";
 import Sec2 from "@/components/Section2";
-
+import Sec3 from "@/components/Section3"
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Sec1 />
       <Sec2 />
+      <Sec3 />
       
       
     </>
