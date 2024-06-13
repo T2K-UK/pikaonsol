@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-10 left-20 right-20 z-50 py-1  bg-white rounded border-solid border-2 ${isScrolled ? 'scrolled-navbar' : 'navbar-shadow'}`}>
+    <nav className={`fixed left-20 right-20 z-50 py-1  bg-white rounded border-solid border-2 ${isScrolled ? 'scrolled-navbar' : 'navbar-shadow'}`}>
       <div className="w-[90%] mx-auto navbar-container padding-container flex items-center justify-between ">
           <div className="hidden lg:flexCenter">
             {NAV_LINKS.map((link) => (

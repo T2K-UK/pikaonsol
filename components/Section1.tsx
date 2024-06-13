@@ -18,6 +18,13 @@ const Hero: React.FC = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const scrollToRoadmap = () => {
+    const element = document.getElementById("roadmap");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="max-container flex flex-col items-center justify-center pb-32 md:gap-28 lg:py-20 xl:flex-row min-h-screen bg-cover bg-center hero-bg relative border-image-container">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
@@ -45,6 +52,15 @@ const Hero: React.FC = () => {
           />
           
         </div>
+        <div className="my-1.5"></div>
+        <div className="flex flex-col w-full gap-5 sm:flex-row">
+          <Button3
+            type="button" 
+            title="Roadmap" 
+            onClick={scrollToRoadmap}
+          />
+          
+        </div>
       </div>
       <div className="relative z-20 flex flex-1 justify-center xl:w-1/2 xl:ml-20 xl:-mr-10 px-24 mt-10 xl:mt-0">
         <Image
@@ -55,18 +71,7 @@ const Hero: React.FC = () => {
           className="object-contain"
         />
       </div>
-      <style jsx>{`
-        .border-image-container::after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 25px; /* Adjust the height as needed */
-          background: url('/blackborder.png') no-repeat center center;
-          background-size: cover;
-        }
-      `}</style>
+      
     </section>
   )
 }
