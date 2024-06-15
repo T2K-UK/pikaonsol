@@ -22,7 +22,7 @@ const Camp = () => {
       <div className="flex flex-col xl:flex-row items-center xl:items-start w-full mt-20 space-y-10 xl:space-y-0 xl:space-x-10 px-10">
         <div className="flex-1 flex justify-center xl:justify-start">
         <Image
-            src="/eggsmoke.gif" 
+            src="/scmeme_1.jpg" 
             alt="Egg Meme"
             width={999} 
             height={999} 

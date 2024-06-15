@@ -14,10 +14,10 @@ interface Sec3Props {
 const Sec3 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    { src: '/eggmeme_1.jpg', title: 'Luka Modric' },
-    { src: '/eggmeme_2.jpg', title: 'Joško Gvardiol' },
-    { src: '/eggmeme_3.jpg', title: 'Pedri' },
-    { src: '/eggmeme_4.jpg', title: 'Lamine Yamal' },
+    { src: '/scmeme_1.jpg', title: 'Luka Modric' },
+    { src: '/scmeme_2.jpg', title: 'Joško Gvardiol' },
+    { src: '/scmeme_3.jpg', title: 'Pedri' },
+    { src: '/scmeme_4.jpg', title: 'Lamine Yamal' },
   ];
 
   const handlePrev = () => {

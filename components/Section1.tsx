@@ -65,7 +65,7 @@ Spain faces Croatia in an exciting Euro 2024 clash, where both teams will battle
       </div>
       <div className="relative z-20 flex flex-1 justify-center xl:w-1/2 xl:ml-20 xl:-mr-10 px-24 mt-10 xl:mt-0">
         <Image
-          src="/eggstein.jpg" // Replace with the path to your GIF
+          src="/scall.gif" // Replace with the path to your GIF
           alt="Pikachu GIF"
           width={1000} // Set appropriate width
           height={1000} // Set appropriate height
