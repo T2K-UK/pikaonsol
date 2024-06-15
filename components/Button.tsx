@@ -24,7 +24,7 @@ const Button = ({ type, title, icon, full }: ButtonProps) => {
     <button type={type} className={`${full && 'w-full'} button-shadow hover:button-sink`} onClick={handleCopy} style={{ width: '150px', height: '50px' }}>
       <div className="flex items-center justify-center h-full">
         <a className="relative" >
-        <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-yellow-90 hover:text-black">
+        <span className="fold-bold relative inline-block h-full w-full rounded border-2 border-black bg-white px-3 py-1 text-base font-bold text-black transition duration-100 hover:bg-blue-50 hover:text-black">
             {isCopied ? (
               <span className="text-base font-bold">Copied!</span>
             ) : (

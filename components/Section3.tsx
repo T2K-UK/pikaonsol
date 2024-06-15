@@ -14,15 +14,10 @@ interface Sec3Props {
 const Sec3 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    { src: '/eggmeme_1.jpg', title: 'Gentleman Eggstein' },
-    { src: '/eggmeme_2.jpg', title: 'Astronaut Eggstein' },
-    { src: '/eggmeme_3.jpg', title: 'Clown Eggstein' },
-    { src: '/eggmeme_4.jpg', title: 'Elephant Eggstein' },
-    { src: '/eggmeme_5.jpg', title: 'Mario Eggstein' },
-    { src: '/eggmeme_6.jpg', title: 'Doctor Eggstein' },
-    { src: '/eggmeme_7.jpg', title: 'Wizard Eggstein' },
-    { src: '/eggmeme_8.jpg', title: 'Cowboy Eggstein' },
-    { src: '/eggmeme_9.jpg', title: 'King Eggstein' },
+    { src: '/eggmeme_1.jpg', title: 'Luka Modric' },
+    { src: '/eggmeme_2.jpg', title: 'Joško Gvardiol' },
+    { src: '/eggmeme_3.jpg', title: 'Pedri' },
+    { src: '/eggmeme_4.jpg', title: 'Lamine Yamal' },
   ];
 
   const handlePrev = () => {
@@ -59,7 +54,7 @@ const Sec3 = () => {
         </div>
       </div>
       <div className="border-text-container absolute top-0 w-full h-16 overflow-hidden flex items-center">
-        <div className="moving-text text-white bold-40">$ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE </div>
+        <div className="moving-text text-white bold-40">$SPACRO    $SPACRO   $SPACRO    $SPACRO    $SPACRO    $SPACRO    $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO </div>
       </div>
       <style jsx>{`
         .border-text-container {

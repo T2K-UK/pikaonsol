@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <Link href="/">
-            <Image src="/eggseethru.png" alt="logo" width={100} height={100} />
+            <Image src="/scbanner.png" alt="logo" width={400} height={80} />
           </Link>
 
           <div className="lg:flexCenter hidden">

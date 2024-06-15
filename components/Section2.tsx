@@ -78,7 +78,7 @@ const Camp = () => {
         </div>
       </div>
       <div className="border-text-container absolute top-0 w-full h-16 overflow-hidden flex items-center">
-        <div className="moving-text text-white bold-40">$ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE </div>
+        <div className="moving-text text-white bold-40">$SPACRO    $SPACRO   $SPACRO    $SPACRO    $SPACRO    $SPACRO    $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO  </div>
       </div>
       <style jsx>{`
         .border-text-container {

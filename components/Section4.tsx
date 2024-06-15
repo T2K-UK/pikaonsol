@@ -25,7 +25,7 @@ const Sec4 = () => {
           <div className="flex flex-col items-center">
             <div className="border-4 border-black p-1">
                 <Image
-                src="/roadmap.jpg"
+                src="/scroadmap.png"
                 alt="roadmap"
                 width={1400}
                 height={750}
@@ -36,7 +36,7 @@ const Sec4 = () => {
         </div>
       </div>
       <div className="border-text-container absolute top-0 w-full h-16 overflow-hidden flex items-center">
-        <div className="moving-text text-white bold-40">$ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE    $ABE </div>
+        <div className="moving-text text-white bold-40">$SPACRO    $SPACRO   $SPACRO    $SPACRO    $SPACRO    $SPACRO    $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO     $SPACRO </div>
       </div>
       <style jsx>{`
         .border-text-container {
