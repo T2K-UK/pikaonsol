@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Albert Eggstein',
-  description: 'A twist on albert einstein',
+  title: 'Spain VS Croatia',
+  description: 'Spain Vs Croatia in the 2024 Euros',
 }
 
 export default function RootLayout({

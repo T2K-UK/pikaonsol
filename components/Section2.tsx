@@ -33,7 +33,7 @@ const Camp = () => {
           <div className="bg-blue-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center  w-[80%] gap-5 sm:flex-row">
             <div className="items-start justify-start">
               <Image
-                src="/egg.png"
+                src="/scsmall1.png"
                 alt="Some image"
                 width={100}
                 height={100}
@@ -48,7 +48,7 @@ const Camp = () => {
           <div className="bg-orange-50 bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center w-[80%] gap-5 sm:flex-row">
           <div className="items-start justify-start">
               <Image
-                src="/pipe2.png"
+                src="/scsmall3.png"
                 alt="Some image"
                 width={100}
                 height={100}
@@ -63,7 +63,7 @@ const Camp = () => {
           <div className="bg-white bg-opacity-100 p-12 rounded-lg shadow-lg box-border flex flex-row items-center w-[80%] gap-5 sm:flex-row">
           <div className="items-start justify-start">
               <Image
-                src="/tophat.png"
+                src="/scsmall2.png"
                 alt="Some image"
                 width={100}
                 height={100}
