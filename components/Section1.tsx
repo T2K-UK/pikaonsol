@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
     <section className="max-container flex flex-col items-center justify-center pb-32 md:gap-28 lg:py-20 xl:flex-row min-h-screen bg-cover bg-center hero-bg relative border-image-container">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 xl:mr-20 justify-center px-24">
         
-        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$SPACRO</h1>
+        <h1 className="bold-120 lg:bold-120 text-white" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>$ESPCRO</h1>
         <p className="bold-32 mt-6 text-black xl:max-w-[600px]" style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
         
 Spain faces Croatia in an exciting Euro 2024 clash, where both teams will battle for a crucial spot in the knockout stages. Expect high-intensity action as Spain's precision meets Croatia's resilience.
